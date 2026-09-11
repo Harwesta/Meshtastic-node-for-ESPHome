@@ -126,3 +126,6 @@ sensor:
   - platform: wifi_signal
     name: "RSSI level"
     update_interval: 180s
+
+time:
+  - platform: homeassistant
