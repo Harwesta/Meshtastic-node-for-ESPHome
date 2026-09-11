@@ -127,5 +127,8 @@ binary_sensor:
 
 sensor:
   - platform: wifi_signal
+
+time:
+  - platform: homeassistant
     name: "RSSI level"
     update_interval: 180s
